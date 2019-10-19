@@ -1,0 +1,203 @@
+/* Second */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: relative;
+    /* background: #444; */
+    background-image: linear-gradient(to right top, #010006, #090617, #0f0d23, #0e122f, #0b163c, #14143a, #1b1338, #201136, #220c26, #1e0718, #15030c, #000000);
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 1px;
+}
+
+.loginContainer {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    /* margin-left: 13%;
+    margin-right: 21%; */
+    left: 15%;
+    top: 20%;
+    font-size: 0;
+    animation: glide 1s 2s cubic-bezier(0.65, 0.05, 0.36, 1) forwards;
+}
+
+.fixalign {
+    width: 40%;
+    height: 56vh;
+    /* background-color: cadetblue; */
+    display: inline-block;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: center;
+    /* font-size: 1; */
+    font-size: initial;
+}
+
+.logindiv {
+    width: 50%;
+    background-color: rgba(17, 2, 2, 0.959);
+    color: cornsilk;
+    /* margin-left: 10px; */
+}
+
+.field {
+    width: 100%;
+}
+
+.iconField {
+    display: inline-block;
+    /* width: 5%; */
+}
+
+.inputField {
+    display: inline-block;
+    width: 90%;
+}
+
+.nodiv {
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 1.5rem;
+    border: 0;
+    background-color: rgba(169, 169, 169, 0.438)
+}
+
+.nodiv:hover {
+    box-shadow: 2px 1px 3px blanchedalmond;
+}
+
+.onlylogin {
+    width: auto;
+    height: 9vh;
+    background-color: orangered;
+    border: 0;
+    color: antiquewhite;
+    display: inline-block;
+    transition: 400ms 200ms ease;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.onlylogin:hover {
+    box-shadow: 2px 1px 5px bisque;
+    cursor: pointer;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.textalign {
+    text-align: center;
+    vertical-align: top;
+    background-color: rgba(236, 66, 4, 0.89);
+    color: cornsilk;
+}
+
+.highlight {
+    float: right;
+    transition: 300ms 200ms ease;
+    margin-top: 5%;
+}
+
+.highlight:hover {
+    color: bisque;
+    font-family: cursive;
+}
+
+.passwordsize {
+    width: 72%;
+    margin-left: 6px;
+    transition: 200ms 200ms ease;
+}
+
+.usernamesize {
+    margin-left: 10px;
+    transition: 200ms 200ms ease;
+}
+
+.register {
+    background-color: rgb(44, 0, 0);
+    color: antiquewhite;
+    width: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: 300ms 200ms ease;
+}
+
+.register:hover {
+    box-shadow: 2px 1px 5px bisque;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.loading-screen {
+    position: absolute;
+    /* background: #222; */
+    background-image: linear-gradient(to right top, #000025, #03082e, #011037, #001540, #00194a, #001949, #001a49, #001a48, #01173d, #041231, #040d26, #01061c);
+    color: antiquewhite;
+    text-align: center;
+    top: 0;
+    left: 0;
+    animation: slide 1s 2s ease forwards;
+}
+
+#loading {
+    margin-top: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*      
+@keyframes{
+    from{
+        padding: 0.5rem;
+    }
+    to{
+        padding:1.5rem;
+    }
+} */
+
+@keyframes slide {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100%;
+    }
+}
+
+@keyframes widthAppear {
+    from {
+        display: none;
+        width: 0;
+    }
+    to {
+        display: block;
+        width: 75%;
+    }
+}
+
+@keyframes glide {
+    from {
+        top: 90%;
+    }
+    to {
+        top: 20%;
+    }
+}

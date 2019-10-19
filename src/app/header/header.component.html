@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0" style="font-size: 120%;">
+            <li class="nav-item active">
+                <a id="link" class="nav-link" href="#" [routerLink]="['/']">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <div class="dropdown bg-transparent">
+                <button id="link" style="border: none; font-size: 100%;" class="btn btn-dark bg-transparent dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </button>
+                <div class="dropdown-menu" aria-labelledby="list">
+                    <a class="dropdown-item" href="#" [routerLink]="['/team']">Team</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/career']">Career</a>
+                </div>
+            </div>
+
+
+            <div class="dropdown bg-transparent">
+                <button id="link" style="border: none; font-size: 100%;" class="btn btn-dark bg-transparent dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </button>
+                <div class="dropdown-menu" aria-labelledby="link">
+                    <a class="dropdown-item" href="#" [routerLink]="['/vapt']">VAPT</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/web']">Web Application Security Assessment</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/network']">Network Security Assessment</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/mobile']">Mobile Application Security Assessment</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/red']">Red Teaming</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/risk']">Risk Advisory</a>
+                </div>
+            </div>
+
+            <li class="nav-item active">
+                <a id="link" class="nav-link" href="#" [routerLink]="['/expert']">Hire Experts </a>
+            </li>
+
+            <li class="nav-item active">
+                <a id="link" class="nav-link" href="#" [routerLink]="['/contact']">Contact</a>
+            </li>
+
+            <li class="nav-item active">
+                <a id="link" class="nav-link" routerLink="/login">Login</a>
+                <!-- /middle-get -->
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->

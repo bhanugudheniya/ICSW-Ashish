@@ -1,0 +1,16 @@
+.btn:hover {
+    background-color: rgb(5, 20, 39);
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#link {
+    color: rgb(190, 190, 190);
+    /* font-family: 'Lexend Giga', sans-serif; */
+    font-family: 'Baloo Chettan', cursive;
+}

@@ -1,0 +1,22 @@
+.card {
+    height: 40%;
+}
+
+.card-Img {
+    height: 40%;
+}
+
+.card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    text-decoration: #4285F4 underline;
+}
+
+.card-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+.legal:hover {
+    font-size: 150%;
+}

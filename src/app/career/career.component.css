@@ -1,0 +1,15 @@
+.career1,
+.career2,
+.career3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #bbbbbb;
+}
+
+.career1:hover,
+.career2:hover,
+.career3:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #4285F4;
+}
